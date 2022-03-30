@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+p {
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  height: 100%;
+}
+
+/* Begining of styling for container 1 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.rating-div {
+  width: 23rem;
+  padding: 25px;
+  border-radius: 1.3rem;
+  background-color: hsl(213, 19%, 18%);
+  margin-bottom: 40px;
+}
+
+.icon {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+  background-color: hsl(213, 32%, 22%);
+}
+
+#question {
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#paragraph {
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.numbers {
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 32%, 22%);
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.numbers:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+.numbers:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+button {
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.attribution > div {
+  color: white;
+}
+
+#links {
+  text-decoration: none;
+  color: hsl(217, 12%, 63%);
+}
+
+#links:hover {
+  color: hsl(25, 97%, 53%);
+}
+
+.noDisplay {
+  display: none;
+}
+
+/* End of styling for container 1 */
+
+/* Begining of styling for container 2 */
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.thankyou-div {
+  text-align: center;
+  width: 23rem;
+  padding: 25px;
+  border-radius: 1.3rem;
+  background-color: hsl(213, 19%, 18%);
+  margin-bottom: 40px;
+}
+
+.thankyou {
+  color: white;
+  margin: 0.5rem 0;
+}
+
+#selected {
+  display: inline-block;
+  padding: 0.5rem 0.35rem;
+  margin: 0.5rem 0;
+  border-radius: 2.5rem;
+  background-color: hsl(213, 32%, 22%);
+  color: hsl(25, 97%, 53%);
+}
+
+#para {
+  color: hsl(216, 12%, 54%);
+}
+
+.Display {
+  display: none;
+}
