@@ -76,10 +76,6 @@ body {
   cursor: pointer;
 }
 
-.numbers:focus {
-  background-color: hsl(217, 12%, 63%);
-}
-
 button {
   letter-spacing: 2px;
   background-color: hsl(25, 97%, 53%);
